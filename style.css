@@ -5,7 +5,7 @@ body{
 .cute{
     color: orange;
 }
-section{
+.flex-container{
     display: flex;
     margin-bottom: 120px;
 }
@@ -35,4 +35,30 @@ p{
     background-image: url(img/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.Experience-area{
+    background-image: url(img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+   
+}
+.box-shadow{
+    box-shadow: 10px 10px 50px gray;
+    width: 44%;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-left: 20px;
+}
+.one{
+    border-left: 5px solid;
+    border-image: linear-gradient(blue, aqua);
+    border-image-slice: 1;
+}
+.two{
+    border-left: 5px solid;
+    border-image: linear-gradient(deepPink, hotPink);
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
 }
