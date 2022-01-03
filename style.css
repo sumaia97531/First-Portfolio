@@ -1,3 +1,29 @@
-h1{
-    color: red;
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+.cute{
+    color: orange;
+}
+section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding-left: 60px;
+}
+.half-width img{
+    width: 100%;
+}
+.Hire-Button{
+    text-decoration: none;
+    background-image: linear-gradient(orange, orangered);
+    color: white;
+    font-weight: 400;
+    padding: 10px 40px;
+    border-radius: 8px;
+}
+.top-banner{
+    background-image: url(img/top-banner.png);
+    background-repeat: no-repeat;
 }
